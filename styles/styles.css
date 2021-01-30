@@ -1,12 +1,63 @@
 .cabecera{
 
-background-image: url("");
+    background-image: url("../assets/backgrounds/janis-beitins-BGcJ8z62i2k-unsplash.jpg");
 
 }
 
 nav{
 
-position: "sticky";
+
 background-color: black;
+height: 75px;
+margin-top: 30px;
+}
+
+
+
+
+.item{
+
+
+position: auto;
+height: 200px;
+background-color: blue;
+border-style: solid;
 
 }
+
+
+
+section{
+
+height: 100%;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+
+.parallax{
+
+background: #fff fixed no-repeat 50% 50%;
+background-size: cover;
+
+
+}
+
+
+#seccion1{
+
+    background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
+
+
+}
+
+
+#seccion2{
+
+    background-image: url("../assets/backgrounds/janis-beitins-BGcJ8z62i2k-unsplash.jpg");
+
+
+}
+
+
