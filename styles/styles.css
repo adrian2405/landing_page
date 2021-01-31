@@ -164,3 +164,9 @@ color: blue;
   object-fit:cover;
 
 }
+h1 {font-family: Helvetica, Geneva, rial,
+        SunSans-Regular, sans-serif;
+		font-size:1.2em; font-weight:bold; 			
+		text-decoration:underline; text-align:center;}
+h2 {font-size:1.1em; color:blue; font-weight:bold; text-decoration:none; text-align:center;}
+
