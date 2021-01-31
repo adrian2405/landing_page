@@ -22,22 +22,25 @@
 
     <div class="container ">
 
-      <div class="cabecera">
-    
-
-      <h1>UNA SOLUCION PARA MEJORAR SU SEGURIDAD</h1>
-      <h2>En tiempos de covid todo es necesario</h2>
-      <form action="#">
-        <input type="email" name="email" placeholder="Escribe aqui tu email...">
-        <input type="submit" name="enviar" value="Contactanos">
-      </form>
+      <div class="parallax cabecera" id="seccion0">
 
 
-    
+        <h1>UNA SOLUCION PARA MEJORAR SU SEGURIDAD</h1>
+        <h2>En tiempos de covid todo es necesario</h2>
+       
+       
+       <!--
+        <form action="#">
+          <input type="email" name="email" placeholder="Escribe aqui tu email...">
+          <input type="submit" name="enviar" value="Contactanos">
+        </form>
+-->
 
 
-      
-              </div>
+
+
+
+      </div>
 
 
 
@@ -56,21 +59,32 @@
 
 
 
-  <!--Las opciones del nav no nos llevaran a otra pagina sino que
+      <!--Las opciones del nav no nos llevaran a otra pagina sino que
                sera como un indice que nos llevara a la zona de esta pagina 
                a la que hace referencia el boton-->
 
 
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top ">
-        <a class="navbar-brand" href="#"> <img class="icono iconoRotation" src="" alt=""> </a>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top mt-4 ">
+        <a class="navbar-brand" href=""> <img class="icono iconoRotation" src="" alt=""> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colapsado">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse bg-dark" id="colapsado">
-          <a class="nav-item nav-link active text-white navOption" href="#">Inicio</a>
-          <a class="nav-item nav-link text-white navOption" href="#">Top moviles</a>
-          <a class="nav-item nav-link text-white navOption" href="#">Suscribete</a>
+          <a class="nav-item nav-link active text-white navOption" href="index.html#anclaTarjetas">Sistema</a>
+          <a class="nav-item nav-link text-white navOption" href="index.html#anclaLista">Caracteristicas</a>
+          <a class="nav-item nav-link text-white navOption" href="index.html#anclaDirectores">Opiniones</a>
+        
+          <form class="nav-item nav-link text-white navOption" action="#">
+            <input type="email" name="email" placeholder="Escribe aqui tu email...">
+            <input type="submit" name="enviar" value="Contactanos">
+          </form>
+
         </div>
+
+       
+
+
       </nav>
 
 
@@ -80,13 +94,42 @@
 
 
 
-      <section class="parallax" id="seccion1">
 
 
 
 
 
-        <div class="row  ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+      <section class="parallax mt-4" id="seccion1">
+
+        <a name="anclaTarjetas"></a>
+
+        <div class="card-group row">
 
 
           <div class=" col-lg-4 d-flex container-fluid box-shadow ">
@@ -146,19 +189,175 @@
 
           </div>
 
+          <div class=" col-lg-4 d-flex container-fluid box-shadow ">
+
+
+            <div class="card text-white bg-secondary m-3">
+
+
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="assets/icons/unlocked-padlock-outlined-security-tool-symbol_icon-icons.com_57752.png"
+                    class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      <section class="parallax mt-4" id="seccion2">
+
+
+        <a name="anclaLista"></a>
+
+
+        <div style="height: 400px;">
+
+          <h2>An Unordered HTML List</h2>
+
+          <ul>
+            <li>jaja</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+
+        </div>
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section class="parallax mt-4" id="seccion3">
+
+        <a name="anclaDirectores"></a>
+
+
+        <h3>DIrectores de instituto</h3>
+
+        <div class="row">
+
+
 
           <div class=" col-lg-4 d-flex container-fluid box-shadow ">
 
-            <div class="card text-white bg-success m-3">
-              <div class="card-header">Header</div>
-              <div class="card-body">
-                <h5 class="card-title">Success card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-              </div>
+            <div class="container ">
+
+              <img class="userImg  img-fluid shadow-lg rounded-circle" src="assets/users/user2.jpeg" alt="">
+
+              <h4 class="">Emilio</h4>
+
+              <p class="">ha sido la mejor solucion posible</p>
+
             </div>
 
           </div>
+
+
+
+
+
+          <div class=" col-lg-4 d-flex container-fluid box-shadow ">
+
+            <div class="container">
+
+              <img class="userImg  img-fluid shadow-lg rounded-circle" src="assets/users/user2.jpeg" alt="">
+
+              <h4 class="">Emilio</h4>
+
+              <p class="">ha sido la mejor solucion posible</p>
+
+            </div>
+
+          </div>
+
+
+
+
+
+          <div class=" col-lg-4 d-flex container-fluid box-shadow ">
+
+            <div class="container">
+
+              <img class="userImg  img-fluid shadow-lg rounded-circle" src="assets/users/user2.jpeg" alt="">
+
+              <h4 class="">Emilio</h4>
+
+              <p class="">ha sido la mejor solucion posible</p>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
 
@@ -185,51 +384,31 @@
 
 
 
-      <section class="parallax" id="seccion2">
-
-
-        <div class="container">
 
 
 
-
-          <div class="row">
-
-
-            <div class=" col-lg-6 d-flex container-fluid box-shadow ">
-
-              <div class="card bg-dark text-white  m-3">
-                <img src="assets/backgrounds/nishant-thakur-dm2MnWNNk0c-unsplash.jpg" class="card-img img-fluid"
-                  alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional
-                    content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
-
-            </div>
+      <section class="parallax mt-4" id="seccion4">
 
 
 
-            <div class=" col-lg-6 d-flex container-fluid box-shadow ">
 
-              <div class="card bg-dark text-white  m-3">
-                <img src="assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg" class="card-img" alt="...">
-                <div class="card-img-overlay">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional
-                    content. This content is a little bit longer.</p>
-                  <p class="card-text">Last updated 3 mins ago</p>
-                </div>
-              </div>
+        <div>
 
 
-            </div>
+          <div class="ampliable rojo  mb-1">
 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae, repellat deserunt
+              saepe animi labore voluptatibus ad voluptatum sint aliquam eligendi hic nostrum sunt pariatur ipsa autem
+              mollitia id in?</p>
+
+          </div>
+
+
+          <div class="ampliable azul mb-1">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae, repellat deserunt
+              saepe animi labore voluptatibus ad voluptatum sint aliquam eligendi hic nostrum sunt pariatur ipsa autem
+              mollitia id in?</p>
 
 
           </div>
@@ -237,6 +416,95 @@
 
 
 
+
+
+
+
+          <div class="ampliable verde mb-1">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae, repellat deserunt
+              saepe animi labore voluptatibus ad voluptatum sint aliquam eligendi hic nostrum sunt pariatur ipsa autem
+              mollitia id in?</p>
+
+
+          </div>
+
+          <div class="ampliable amarillo mb-1">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur repudiandae, repellat deserunt
+              saepe animi labore voluptatibus ad voluptatum sint aliquam eligendi hic nostrum sunt pariatur ipsa autem
+              mollitia id in?</p>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section>
+
+
+        <div class="container-fluid p-0">
+
+          <div class="row no-gutters">
+
+            <div class="col-lg-6 order-lg-2 text-white showcase-img"
+              style="background-image: url ('assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg');"></div>
+
+            <div class="col-lg-6 order-lg-2 text-white my-auto showcase-text">
+
+              <p>hola que tal</p>
+
+            </div>
+
+
+          </div>
 
 
         </div>
@@ -250,79 +518,6 @@
 
 
 
-
-
-      <section class="parallax"  id="seccion3">
-
-
-        <h2>An Unordered HTML List</h2>
-
-        <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ul>  
-        
-        <h2>An Ordered HTML List</h2>
-        
-        <ol>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ol> 
-
-
-        <h2>An Unordered HTML List</h2>
-
-        <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ul>  
-        
-        <h2>An Ordered HTML List</h2>
-        
-        <ol>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ol> 
-
-
-        <h2>An Unordered HTML List</h2>
-
-        <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ul>  
-        
-        <h2>An Ordered HTML List</h2>
-        
-        <ol>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
-        </ol> 
-
-
-      </section>
-
-
-
-
-
-      <section class="parallax"  id="seccion4">
-
-
-        
-
-
-      </section>
-
-
-
-      <section></section>
       <section></section>
 
 
@@ -334,9 +529,9 @@
 
 
 
+<div class="container">
 
-
-  <footer class="page-footer font-small ">
+  <footer class="page-footer font-small bg-dark">
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
@@ -346,7 +541,7 @@
 
   </footer>
 
-
+</div>
 
 
 

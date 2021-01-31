@@ -1,7 +1,7 @@
 .cabecera{
-
-    background-image: url("../assets/backgrounds/janis-beitins-BGcJ8z62i2k-unsplash.jpg");
-  
+    text-align: center;
+    background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
+    min-height: 40vh;
 }
 
 nav{
@@ -34,7 +34,7 @@ section{
 height: 100%;
 width: 100%;
 padding: 0;
-margin-bottom: 30px;
+
 }
 
 
@@ -45,6 +45,15 @@ background-size: cover;
 
 
 }
+
+
+#seccion0{
+
+  background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
+
+
+}
+
 
 
 #seccion1{
@@ -65,15 +74,93 @@ background-size: cover;
 
 #seccion3{
 
-    background-image: url("../assets/backgrounds/janis-beitins-BGcJ8z62i2k-unsplash.jpg");
+ 
+  background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
+  text-align: center;
+}
+
+
+#seccion4{
+
+   display: inline-block;
 
 
 }
 
 
+.ampliable:hover{
+
+width: 100%;
+
+
+}
+
+
+
+
+.rojo {
+   
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+    overflow: hidden;
+  }
+
+
+
+  .azul {
+    
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: width 2s, height 4s;
+    overflow: hidden;
+  }
+
+
+
+  .verde {
+    
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 2s, height 4s;
+    overflow: hidden;
+  }
+
+
+
+  .amarillo {
+   
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition: width 2s, height 4s;
+    overflow: hidden;
+  }
+
+
+
+
+
 li, ul, ol{
 
 
-color: white;
+color: blue;
+
+}
+
+
+.userImg{
+   
+  height: 75px;
+  width: 70px;
+
+  object-fit:cover;
 
 }
