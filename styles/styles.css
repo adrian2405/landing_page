@@ -12,7 +12,10 @@ h1 {font-family: Helvetica, Geneva, rial,
 h2 {font-family: Helvetica, Geneva, rial,
         SunSans-Regular, sans-serif;font-size:1.1em; font-weight:bold; text-decoration:none; text-align:center;}*/
 
-
+@import "susy";
+h1 {
+	padding-top:50px;
+}
 .cabecera{
     text-align: center;
     background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
