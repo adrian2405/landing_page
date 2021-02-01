@@ -1,3 +1,18 @@
+
+
+
+/*p{font-family: 'Roboto', sans-serif;
+font-size:16px;}
+p.cursiv {font-family: cursive;}
+
+h1 {font-family: Helvetica, Geneva, rial,
+        SunSans-Regular, sans-serif;
+		font-size:1.2em; font-weight:bold; 			
+		text-decoration:underline; text-align:center;}
+h2 {font-family: Helvetica, Geneva, rial,
+        SunSans-Regular, sans-serif;font-size:1.1em; font-weight:bold; text-decoration:none; text-align:center;}*/
+
+
 .cabecera{
     text-align: center;
     background-image: url("../assets/backgrounds/jonny-caspari-kplYftwYOCY-unsplash.jpg");
@@ -164,9 +179,5 @@ color: blue;
   object-fit:cover;
 
 }
-h1 {font-family: Helvetica, Geneva, rial,
-        SunSans-Regular, sans-serif;
-		font-size:1.2em; font-weight:bold; 			
-		text-decoration:underline; text-align:center;}
-h2 {font-size:1.1em; color:blue; font-weight:bold; text-decoration:none; text-align:center;}
+
 
