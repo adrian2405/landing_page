@@ -12,17 +12,43 @@ h2 {font-family: Helvetica, Geneva, rial,
 @import "susy";
 h1 {
     padding-top: 50px;
+    text-decoration:overline underline;
+    
+}
+
+
+
+.centrar
+
+{
+
+   
+
+}
+
+
+
+
+h1, h2, h3, p {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+
 }
 
 .cabecera {
     text-align: center;
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
-    min-height: 40vh;
+    height: 100vh;
+    border-left:1px solid #808080;
+    border-right:1px solid #808080;
 }
 
-nav {
+nav  {
     background-color: black;
     height: 75px;
+    text-align: center;
 }
 
 .item {
@@ -36,6 +62,8 @@ section {
     height: 100%;
     width: 100%;
     padding: 0;
+    border-left:1px solid #808080;
+    border-right:1px solid #808080;
 }
 
 .parallax {
@@ -102,10 +130,13 @@ ol {
 
 html {
     scroll-behavior: smooth;
+  
 }
 
 .espacioNav {
     height: 90px;
+    border-left:1px solid #808080;
+    border-right:1px solid #808080;
 }
 
 
@@ -151,3 +182,22 @@ html {
     
     
     }
+
+
+
+
+    .boton {
+        color: rgba(255, 255, 255, 0.9) !important;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0.5em 1.2em;
+        background: #318aac;
+        border: 2px solid;
+        border-color: #318aac;
+        position: relative;
+      }
+      .boton:hover {
+        color: rgba(255, 255, 255, 1) !important;
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        transition: all 0.2s ease;
+      }
