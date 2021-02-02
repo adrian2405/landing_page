@@ -11,20 +11,14 @@ h2 {font-family: Helvetica, Geneva, rial,
 
 @import "susy";
 h1 {
-    padding-top: 50px;
+    padding-top: 20%;
     text-decoration:overline underline;
     
 }
 
 
 
-.centrar
 
-{
-
-   
-
-}
 
 
 
@@ -200,4 +194,13 @@ html {
         color: rgba(255, 255, 255, 1) !important;
         box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
         transition: all 0.2s ease;
+      }
+
+
+
+      .keyword{
+
+        color: rgb(226, 220, 26);
+        font-weight: bold;
+
       }
