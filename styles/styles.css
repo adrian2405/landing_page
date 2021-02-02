@@ -95,8 +95,8 @@ ol {
 }
 
 .userImg {
-    height: 75px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     object-fit: cover;
 }
 
@@ -135,3 +135,19 @@ html {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
+
+
+
+
+@media screen and (max-width: 936px)  {
+ 
+
+    .card-img-wrapping{
+    
+     display: none;
+
+      
+      }
+    
+    
+    }
