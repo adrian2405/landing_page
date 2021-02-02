@@ -59,12 +59,8 @@ section {
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
 }
 
-
-
-.espacioNav{
-
+.espacioNav {
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
-
 }
 
 #seccion4 {
@@ -75,6 +71,10 @@ section {
 .ampliable:hover {
     width: 100%;
     font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .ampliable {
@@ -100,18 +100,13 @@ ol {
     object-fit: cover;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
-
-html{scroll-behavior: smooth;}
-
-
-.espacioNav{
-
+.espacioNav {
     height: 90px;
-  
-  }
-  
-
+}
 
 
 /*EFECTO PARA AMPLIAR TARJETAS */
@@ -126,19 +121,17 @@ html{scroll-behavior: smooth;}
 }
 
 .zoom-card {
-  position: auto;
-  top: 0;
-  left: 0;
-  
-  
+    position: auto;
+    top: 0;
+    left: 0;
 }
 
-.zoom-card  {
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
+.zoom-card {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
 }
 
-.zoom-effect-container:hover .zoom-card  {
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
+.zoom-effect-container:hover .zoom-card {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
