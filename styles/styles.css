@@ -12,36 +12,29 @@ h2 {font-family: Helvetica, Geneva, rial,
 @import "susy";
 h1 {
     padding-top: 20%;
-    text-decoration:overline underline;
-    
+    text-decoration: overline underline;
 }
 
-
-
-
-
-
-
-
-h1, h2, h3, p {
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
-
-
+h1,
+h2,
+h3,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cabecera {
     text-align: center;
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
-    height: 100vh;
-    border-left:1px solid #808080;
-    border-right:1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-nav  {
+nav {
     background-color: black;
-    height: 75px;
+    height: 60px;
     text-align: center;
 }
 
@@ -56,8 +49,8 @@ section {
     height: 100%;
     width: 100%;
     padding: 0;
-    border-left:1px solid #808080;
-    border-right:1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
 }
 
 .parallax {
@@ -124,13 +117,12 @@ ol {
 
 html {
     scroll-behavior: smooth;
-  
 }
 
 .espacioNav {
     height: 90px;
-    border-left:1px solid #808080;
-    border-right:1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
 }
 
 
@@ -161,46 +153,30 @@ html {
     transform: scale(1.03);
 }
 
-
-
-
-@media screen and (max-width: 936px)  {
- 
-
-    .card-img-wrapping{
-    
-     display: none;
-
-      
-      }
-    
-    
+@media screen and (max-width: 936px) {
+    .card-img-wrapping {
+        display: none;
     }
+}
 
+.boton {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+}
 
+.boton:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+}
 
-
-    .boton {
-        color: rgba(255, 255, 255, 0.9) !important;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 0.5em 1.2em;
-        background: #318aac;
-        border: 2px solid;
-        border-color: #318aac;
-        position: relative;
-      }
-      .boton:hover {
-        color: rgba(255, 255, 255, 1) !important;
-        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-        transition: all 0.2s ease;
-      }
-
-
-
-      .keyword{
-
-        color: rgb(226, 220, 26);
-        font-weight: bold;
-
-      }
+.keyword {
+    color: rgb(226, 220, 26);
+    font-weight: bold;
+}
