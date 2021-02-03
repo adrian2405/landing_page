@@ -10,10 +10,35 @@ h2 {font-family: Helvetica, Geneva, rial,
         SunSans-Regular, sans-serif;font-size:1.1em; font-weight:bold; text-decoration:none; text-align:center;}*/
 
 @import "susy";
-h1 {
-    padding-top: 20%;
-    text-decoration: overline underline;
+
+
+
+.cabecera-wrapping{
+
+    height: auto;
+    opacity: 80%;
+    background-color: #1f2021;
+
+
 }
+
+
+
+.lead{
+
+color: white;
+
+}
+
+
+
+h1 {
+    padding-top: 50px;
+    text-decoration: overline underline;
+    color: white;
+}
+
+
 
 h1,
 h2,
@@ -74,9 +99,12 @@ section {
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
 }
 
-.espacioNav {
+.espacioNavParallax {
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
 }
+
+
+
 
 #seccion4 {
     display: inline-block;
@@ -109,6 +137,16 @@ ol {
     color: blue;
 }
 
+
+.nav-link{
+
+color: white;
+
+
+}
+
+
+
 .userImg {
     height: 90px;
     width: 90px;
@@ -131,8 +169,8 @@ html {
 .zoom-effect-container {
     float: left;
     position: relative;
-    width: 670px;
-    height: 290;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     overflow: hidden;
 }
