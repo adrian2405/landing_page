@@ -10,35 +10,21 @@ h2 {font-family: Helvetica, Geneva, rial,
         SunSans-Regular, sans-serif;font-size:1.1em; font-weight:bold; text-decoration:none; text-align:center;}*/
 
 @import "susy";
-
-
-
-.cabecera-wrapping{
-
+.cabecera-wrapping {
     height: auto;
     opacity: 80%;
     background-color: #1f2021;
-
-
 }
 
-
-
-.lead{
-
-color: white;
-
+.lead {
+    color: white;
 }
-
-
 
 h1 {
     padding-top: 50px;
     text-decoration: overline underline;
     color: white;
 }
-
-
 
 h1,
 h2,
@@ -55,12 +41,6 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-}
-
-nav {
-    background-color: black;
-    height: 60px;
-    text-align: center;
 }
 
 .item {
@@ -103,9 +83,6 @@ section {
     background-image: url("../assets/backgrounds/bg-nfc.jpg");
 }
 
-
-
-
 #seccion4 {
     display: inline-block;
     text-align: center;
@@ -124,11 +101,12 @@ section {
     position: relative;
     width: 100px;
     height: 100px;
-    transition: width 2s, height 4s;
+    transition: width 2s, height 2s;
     overflow: hidden;
-    border-radius: 4px;
     text-align: center;
     background-color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 li,
@@ -137,15 +115,9 @@ ol {
     color: blue;
 }
 
-
-.nav-link{
-
-color: white;
-
-
+.nav-link {
+    color: white;
 }
-
-
 
 .userImg {
     height: 90px;
@@ -217,4 +189,8 @@ html {
 .keyword {
     color: rgb(226, 220, 26);
     font-weight: bold;
+}
+
+a:hover {
+    color: rgb(226, 220, 26);
 }
